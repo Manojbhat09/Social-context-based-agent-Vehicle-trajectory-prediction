@@ -14,3 +14,5 @@ with velocity and position vector of the agent, to generate
 the agent path.
 
  The proposed network architecture has a Coordinate Tensor which is based on the coordinates at the given time and a Social Context tensor which is shared with the agent network. This tensor is an embedding which follows the Social Attention LSTM model of social grids. We want our model to learn the essence of relative distances for which gradients are representative of velocity (pool layer).  The concatenation helps the agent LSTM network to learn as much detailed inputs. The final prediction tensor consists sequence of position data of both the disturbances and the agents. 
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
